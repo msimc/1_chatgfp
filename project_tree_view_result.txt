@@ -1,0 +1,234 @@
+Project structure of C:\Users\Martin\Repositories\1_chatgfp:
+├── .env (Last Modified: 2024-11-04 09:45:26)
+├── .github/
+├── .gitignore (Last Modified: 2024-10-22 20:11:21)
+├── Next_Steps/
+├── __init__.py (Last Modified: 2024-10-28 12:56:50)
+├── alembic/
+│   ├── README (Last Modified: 2024-10-28 13:17:50)
+│   ├── env.py (Last Modified: 2024-11-04 09:58:39)
+│   ├── script.py.mako (Last Modified: 2024-10-28 13:17:50)
+│   └── versions/
+├── alembic.ini (Last Modified: 2024-11-04 09:49:32)
+├── api/
+├── auth/
+├── backups/
+├── create_virtual_environment_with_permission_fix.txt (Last Modified: 2024-11-03 13:39:13)
+├── database/
+│   ├── __init__.py (Last Modified: 2024-10-28 19:51:23)
+│   ├── alembic/
+│   │   ├── README (Last Modified: 2024-10-28 19:22:24)
+│   │   ├── __init__.py (Last Modified: 2024-10-28 19:51:23)
+│   │   ├── env.py (Last Modified: 2024-10-28 20:02:18)
+│   │   ├── script.py.mako (Last Modified: 2024-10-28 19:22:24)
+│   │   └── versions/
+│   │       └── 3e6cb24a5fda_initial_tables_for_fca_categorization.py (Last Modified: 2024-10-28 20:04:18)
+│   ├── alembic.ini (Last Modified: 2024-10-28 20:03:33)
+│   ├── database.py (Last Modified: 2024-10-28 19:20:48)
+│   └── models.py (Last Modified: 2024-10-28 20:02:56)
+├── descriptions_overviews/
+├── fca_categorization.egg-info/
+├── fca_queries/
+├── fca_sequence_scripts/
+├── main.py (Last Modified: 2024-10-28 13:05:49)
+├── pdf_processing/
+├── postgres/
+├── project_tree_view.py (Last Modified: 2024-11-04 11:18:16)
+├── project_tree_view_result.txt (Last Modified: 2024-11-04 12:33:10)
+├── project_tree_view_result_last_10_files_only.txt (Last Modified: 2024-11-04 11:12:48)
+├── pyproject.toml (Last Modified: 2024-11-04 12:11:49)
+├── pyrightconfig.json (Last Modified: 2024-11-04 12:19:23)
+├── pytest.ini (Last Modified: 2024-10-28 12:53:54)
+├── requirements.txt (Last Modified: 2024-11-04 09:57:17)
+├── scripts/
+│   ├── analyze_core_structure.py (Last Modified: 2024-11-03 14:32:50)
+│   ├── analyze_implementation.py (Last Modified: 2024-11-03 14:53:32)
+│   ├── analyze_structure.py (Last Modified: 2024-11-03 14:29:02)
+│   ├── cleanup_structure.py (Last Modified: 2024-11-03 14:22:07)
+│   ├── code_migrator.py (Last Modified: 2024-11-03 14:12:56)
+│   ├── create_project_structure.py (Last Modified: 2024-11-03 14:13:39)
+│   ├── create_safe_structure.py (Last Modified: 2024-11-03 14:16:37)
+│   ├── create_step_structure.py (Last Modified: 2024-11-03 14:04:14)
+│   ├── detailed_analysis.py (Last Modified: 2024-11-03 14:32:28)
+│   ├── list_project_structure.py (Last Modified: 2024-11-03 13:57:35)
+│   ├── migrate_code.py (Last Modified: 2024-11-03 14:19:40)
+│   ├── migrate_code_to_steps.py (Last Modified: 2024-11-03 14:08:37)
+│   ├── reorganize_project.py (Last Modified: 2024-11-03 14:10:24)
+│   ├── run_with_venv.ps1 (Last Modified: 2024-11-03 14:27:59)
+│   ├── safe_cleanup_structure.py (Last Modified: 2024-11-03 14:25:54)
+│   ├── setup_project.ps1 (Last Modified: 2024-11-03 13:53:40)
+│   ├── structure_verifyer.py (Last Modified: 2024-11-03 14:13:16)
+│   ├── test_rag_system.py (Last Modified: 2024-11-03 20:06:33)
+│   └── verify_structure.py (Last Modified: 2024-11-03 14:21:04)
+└── src/
+    ├── __init__.py (Last Modified: 2024-10-28 12:57:54)
+    ├── chatgfp/
+    │   ├── .env (Last Modified: 2024-11-03 13:54:15)
+    │   ├── .env.example (Last Modified: 2024-10-28 13:17:34)
+    │   ├── .gitignore (Last Modified: 2024-11-04 11:01:33)
+    │   ├── alembic/
+    │   │   ├── README (Last Modified: 2024-10-28 13:17:50)
+    │   │   ├── env.py (Last Modified: 2024-11-03 13:51:26)
+    │   │   ├── script.py.mako (Last Modified: 2024-10-28 13:17:50)
+    │   │   └── versions/
+    │   ├── alembic.ini (Last Modified: 2024-11-03 13:54:38)
+    │   ├── api/
+    │   │   └── v1/
+    │   │       └── endpoints/
+    │   │           ├── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │           ├── categorization.py (Last Modified: 2024-11-03 14:18:24)
+    │   │           ├── embedding.py (Last Modified: 2024-11-03 14:18:24)
+    │   │           ├── ingestion.py (Last Modified: 2024-11-03 14:18:24)
+    │   │           ├── processing.py (Last Modified: 2024-11-03 14:18:24)
+    │   │           └── retrieval.py (Last Modified: 2024-11-03 14:18:24)
+    │   ├── app/
+    │   │   ├── __init__.py (Last Modified: 2024-11-03 13:43:06)
+    │   │   ├── main.py (Last Modified: 2024-11-03 13:46:04)
+    │   │   ├── models/
+    │   │   │   ├── __init__.py (Last Modified: 2024-11-03 13:43:06)
+    │   │   │   ├── document.py (Last Modified: 2024-11-03 13:43:06)
+    │   │   │   └── embedding.py (Last Modified: 2024-11-03 13:43:06)
+    │   │   └── services/
+    │   │       ├── __init__.py (Last Modified: 2024-11-03 13:43:06)
+    │   │       ├── embeddings.py (Last Modified: 2024-11-03 13:43:06)
+    │   │       ├── retriever.py (Last Modified: 2024-11-03 13:43:06)
+    │   │       └── vector_store.py (Last Modified: 2024-11-03 13:43:06)
+    │   ├── auth/
+    │   ├── backups/
+    │   │   ├── postgres_20241028_150911.backup (Last Modified: 2024-10-28 15:09:11)
+    │   │   └── pre_migration_20241103_140857/
+    │   │       ├── app/
+    │   │       │   ├── models/
+    │   │       │   │   ├── document.py (Last Modified: 2024-11-03 13:43:06)
+    │   │       │   │   └── embedding.py (Last Modified: 2024-11-03 13:43:06)
+    │   │       │   └── services/
+    │   │       │       ├── embeddings.py (Last Modified: 2024-11-03 13:43:06)
+    │   │       │       ├── retriever.py (Last Modified: 2024-11-03 13:43:06)
+    │   │       │       └── vector_store.py (Last Modified: 2024-11-03 13:43:06)
+    │   │       ├── database/
+    │   │       │   └── database.py (Last Modified: 2024-10-28 19:20:48)
+    │   │       └── src/
+    │   │           └── fca_categorization/
+    │   │               ├── main.py (Last Modified: 2024-10-29 08:33:06)
+    │   │               └── models.py (Last Modified: 2024-10-28 20:50:34)
+    │   ├── core/
+    │   │   ├── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── auth/
+    │   │   │   └── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── config.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── database/
+    │   │   │   ├── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   └── alembic.ini (Last Modified: 2024-11-03 13:54:38)
+    │   │   ├── security.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   └── services/
+    │   │       └── rag_service.py (Last Modified: 2024-11-03 20:04:02)
+    │   ├── models/
+    │   │   ├── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── categorization.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── document.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   └── embedding.py (Last Modified: 2024-11-03 14:18:24)
+    │   ├── steps/
+    │   │   ├── step_1_data_ingestion/
+    │   │   │   ├── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   ├── data_validator.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   ├── document_loader.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   └── text_extractor.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── step_2_preprocessing/
+    │   │   │   ├── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   ├── chunker.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   ├── metadata_extractor.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   └── text_cleaner.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── step_3_embedding/
+    │   │   │   ├── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   ├── embeddings_generator.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   ├── index_manager.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   ├── pinecone_client.py (Last Modified: 2024-11-03 19:22:03)
+    │   │   │   └── vector_store.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── step_4_retrieval/
+    │   │   │   ├── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   ├── query_processor.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   ├── result_ranker.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   │   └── semantic_search.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   └── step_5_categorization/
+    │   │       ├── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │       ├── category_mapper.py (Last Modified: 2024-11-03 14:18:24)
+    │   │       ├── compliance_checker.py (Last Modified: 2024-11-03 14:18:24)
+    │   │       └── fca_analyzer.py (Last Modified: 2024-11-03 14:18:24)
+    │   ├── tests/
+    │   │   ├── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── conftest.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── step_1/
+    │   │   │   └── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── step_2/
+    │   │   │   └── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── step_3/
+    │   │   │   └── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   ├── step_4/
+    │   │   │   └── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   │   └── step_5/
+    │   │       └── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │   └── utils/
+    │       ├── __init__.py (Last Modified: 2024-11-03 14:18:24)
+    │       ├── health_check.py (Last Modified: 2024-11-03 14:18:24)
+    │       ├── helpers.py (Last Modified: 2024-11-03 14:18:24)
+    │       └── monitoring.py (Last Modified: 2024-11-03 14:18:24)
+    ├── fca_categorization/
+    │   ├── api/
+    │   │   └── v1/
+    │   │       └── endpoints/
+    │   │           ├── __init__.py (Last Modified: 2024-11-03 14:06:35)
+    │   │           ├── categorization.py (Last Modified: 2024-11-03 14:08:57)
+    │   │           ├── embedding.py (Last Modified: 2024-11-03 14:06:35)
+    │   │           ├── ingestion.py (Last Modified: 2024-11-03 14:06:35)
+    │   │           ├── processing.py (Last Modified: 2024-11-03 14:06:35)
+    │   │           └── retrieval.py (Last Modified: 2024-11-03 14:06:35)
+    │   ├── auth.py (Last Modified: 2024-10-28 13:09:53)
+    │   ├── core/
+    │   │   ├── __init__.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   ├── config.py (Last Modified: 2024-11-03 14:08:57)
+    │   │   └── security.py (Last Modified: 2024-11-03 14:06:35)
+    │   ├── database.py (Last Modified: 2024-10-28 20:50:51)
+    │   ├── main.py (Last Modified: 2024-11-03 14:08:57)
+    │   ├── models/
+    │   │   ├── __init__.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   ├── categorization.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   ├── document.py (Last Modified: 2024-11-03 14:08:57)
+    │   │   └── embedding.py (Last Modified: 2024-11-03 14:08:57)
+    │   ├── models.py (Last Modified: 2024-10-28 20:50:34)
+    │   ├── requirements.txt (Last Modified: 2024-10-28 20:14:14)
+    │   ├── steps/
+    │   │   ├── __init__.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   ├── step_1_data_ingestion/
+    │   │   │   ├── __init__.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   │   ├── data_validator.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   │   ├── document_loader.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   │   └── text_extractor.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   ├── step_2_preprocessing/
+    │   │   │   ├── __init__.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   │   ├── chunker.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   │   ├── metadata_extractor.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   │   └── text_cleaner.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   ├── step_3_embedding/
+    │   │   │   ├── __init__.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   │   ├── embeddings_generator.py (Last Modified: 2024-11-03 14:08:57)
+    │   │   │   ├── index_manager.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   │   └── vector_store.py (Last Modified: 2024-11-03 14:08:57)
+    │   │   ├── step_4_retrieval/
+    │   │   │   ├── __init__.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   │   ├── query_processor.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   │   ├── result_ranker.py (Last Modified: 2024-11-03 14:06:35)
+    │   │   │   └── semantic_search.py (Last Modified: 2024-11-03 14:08:57)
+    │   │   └── step_5_categorization/
+    │   │       ├── __init__.py (Last Modified: 2024-11-03 14:06:35)
+    │   │       ├── category_mapper.py (Last Modified: 2024-11-03 14:06:35)
+    │   │       ├── compliance_checker.py (Last Modified: 2024-11-03 14:06:35)
+    │   │       └── fca_analyzer.py (Last Modified: 2024-11-03 14:08:57)
+    │   └── utils/
+    │       ├── __init__.py (Last Modified: 2024-11-03 14:06:35)
+    │       └── helpers.py (Last Modified: 2024-11-03 14:06:35)
+    └── fca_categorization.egg-info/
+        ├── PKG-INFO (Last Modified: 2024-10-28 13:01:43)
+        ├── SOURCES.txt (Last Modified: 2024-10-28 13:01:43)
+        ├── dependency_links.txt (Last Modified: 2024-10-28 13:01:43)
+        ├── requires.txt (Last Modified: 2024-10-28 13:01:43)
+        └── top_level.txt (Last Modified: 2024-10-28 13:01:43)

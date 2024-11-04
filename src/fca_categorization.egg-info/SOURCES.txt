@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/fca_categorization.egg-info/PKG-INFO
+src/fca_categorization.egg-info/SOURCES.txt
+src/fca_categorization.egg-info/dependency_links.txt
+src/fca_categorization.egg-info/requires.txt
+src/fca_categorization.egg-info/top_level.txt
+tests/test_api.py
+tests/test_business_logic.py
+tests/test_models.py

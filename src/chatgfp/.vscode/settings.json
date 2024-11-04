@@ -1,0 +1,15 @@
+{
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "& {Import-Module PSReadline;}" // Keep this part
+            ],
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.enableShellIntegration": true
+}

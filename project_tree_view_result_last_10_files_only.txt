@@ -1,0 +1,11 @@
+Last 10 modified files in the project:
+C:\Users\Martin\Repositories\1_chatgfp\pyrightconfig.json (Last Modified: 2024-11-04 12:19:23)
+C:\Users\Martin\Repositories\1_chatgfp\project_tree_view.py (Last Modified: 2024-11-04 11:18:16)
+C:\Users\Martin\Repositories\1_chatgfp\alembic\env.py (Last Modified: 2024-11-04 09:58:39)
+C:\Users\Martin\Repositories\1_chatgfp\alembic.ini (Last Modified: 2024-11-04 09:49:32)
+C:\Users\Martin\Repositories\1_chatgfp\.env (Last Modified: 2024-11-04 09:45:26)
+C:\Users\Martin\Repositories\1_chatgfp\scripts\test_rag_system.py (Last Modified: 2024-11-03 20:06:33)
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\core\services\rag_service.py (Last Modified: 2024-11-03 20:04:02)
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\steps\step_3_embedding\pinecone_client.py (Last Modified: 2024-11-03 19:22:03)
+C:\Users\Martin\Repositories\1_chatgfp\descriptions_overviews\FCA Data Preparation Project Summary.md (Last Modified: 2024-11-03 19:08:45)
+C:\Users\Martin\Repositories\1_chatgfp\scripts\analyze_implementation.py (Last Modified: 2024-11-03 14:53:32)

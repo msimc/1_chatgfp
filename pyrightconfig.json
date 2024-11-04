@@ -1,0 +1,29 @@
+{
+    "include": [
+        "src",
+        "scripts"
+    ],
+    "exclude": [
+        "node_modules",
+        "venv",
+        "__pycache__",
+        ".git",
+        ".vscode",
+        "dist",
+        "build",
+        "tests",
+        "coverage",
+        "large_data",
+        "logs",
+        "lib",
+        "bin",
+        ".pnp",
+        ".next",
+        "out",
+        "test-results",
+        "playwright-report",
+        "playwright/.cache"
+    ],
+    "venvPath": ".",
+    "venv": "venv"
+}

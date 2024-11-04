@@ -1,0 +1,11 @@
+Last 10 modified files in the project:
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\core\services\rag_service.py (Last Modified: 2024-11-03 20:04:02)
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\steps\step_3_embedding\pinecone_client.py (Last Modified: 2024-11-03 19:22:03)
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\utils\health_check.py (Last Modified: 2024-11-03 14:18:24)
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\utils\helpers.py (Last Modified: 2024-11-03 14:18:24)
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\tests\step_4\__init__.py (Last Modified: 2024-11-03 14:18:24)
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\tests\step_5\__init__.py (Last Modified: 2024-11-03 14:18:24)
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\utils\monitoring.py (Last Modified: 2024-11-03 14:18:24)
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\utils\__init__.py (Last Modified: 2024-11-03 14:18:24)
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\tests\step_1\__init__.py (Last Modified: 2024-11-03 14:18:24)
+C:\Users\Martin\Repositories\1_chatgfp\src\chatgfp\tests\step_2\__init__.py (Last Modified: 2024-11-03 14:18:24)

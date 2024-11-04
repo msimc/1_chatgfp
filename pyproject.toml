@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = [
+    ".",
+    "src"
+]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --cov=src --cov-report=term-missing"
+
+[tool.pyright]
+include = [
+    "src",           # Add the main folders you actively work on.
+    "scripts"        # Replace or add more folders as necessary.
+]
+exclude = [
+    "node_modules",
+    "venv",
+    "__pycache__",
+    ".git",
+    ".vscode",
+    "dist",
+    "build",
+    "tests",
+    "coverage",
+    "large_data",
+    "logs",
+    "lib",
+    "bin"
+]

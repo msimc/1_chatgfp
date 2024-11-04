@@ -1,0 +1,30 @@
+# Ensure proper execution policy
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+
+# Remove existing venv if it exists
+Remove-Item -Path "venv" -Recurse -Force -ErrorAction SilentlyContinue
+
+# Create new venv with explicit path
+$pythonPath = (Get-Command python).Source
+Start-Process -FilePath $pythonPath -ArgumentList "-m venv venv" -Wait -NoNewWindow
+
+# Verify venv creation
+if (Test-Path "venv") {
+    Write-Host "Virtual environment created successfully!"
+    
+    # Activate the virtual environment
+    .\venv\Scripts\Activate
+    
+    if ($?) {
+        Write-Host "Virtual environment activated successfully!"
+        
+        # Install required packages
+        pip install fastapi uvicorn sqlmodel sentence-transformers faiss-cpu python-dotenv
+        
+        Write-Host "Basic packages installed!"
+    } else {
+        Write-Host "Failed to activate virtual environment!"
+    }
+} else {
+    Write-Host "Failed to create virtual environment!"
+}
